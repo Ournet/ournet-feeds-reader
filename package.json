@@ -1,0 +1,38 @@
+{
+  "name": "ournet-feeds-reader",
+  "version": "0.1.0",
+  "description": "Ournet news feeds reader app",
+  "scripts": {
+    "start": "node ./lib/app.js",
+    "test": "NODE_ENV=test mocha"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ournet/ournet-feeds-reader.git"
+  },
+  "keywords": [
+    "ournet",
+    "feeds-reader",
+    "app"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ournet/ournet-feeds-reader/issues"
+  },
+  "homepage": "https://github.com/Ournet/ournet-feeds-reader#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "debug": "^2.5.2",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.17.3",
+    "ournet-feed-reader": "^0.1.0",
+    "ournet.data.news": "^0.3.3",
+    "ournet.logger": "^0.1.0",
+    "ournet.utils": "^0.1.1",
+    "social-counts": "^0.1.2"
+  }
+}
