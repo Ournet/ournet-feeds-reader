@@ -7,7 +7,7 @@
     "test": "NODE_ENV=test mocha"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "debug": "^2.5.2",
     "dotenv": "^2.0.0",
     "lodash": "^4.17.3",
-    "ournet-feed-reader": "^0.1.0",
+    "ournet-feed-reader": "^0.1.2",
     "ournet.data.news": "^0.3.3",
     "ournet.logger": "^0.1.0",
     "ournet.utils": "^0.1.1",
